@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+
 .ms_search {
     background-color: #e5e5e5;
     height: 40px;
+}
+
+
+.fa-bell:hover {
+    cursor: pointer;
 }
 
 .ms_nav {
@@ -23,6 +29,14 @@
 .ms_logo_2 {
     width: 100%;
     line-height: 10px;
+}
+
+.ms_green {
+    color: #5b5858
+}
+
+.ms_yellow {
+    color: #ff8f00;
 }
 
 header {
@@ -62,6 +76,6 @@ header {
         justify-content: space-between;
     }
     .ms_new_student {
-        order: 1;
+        order: 1;""
     }
 }
