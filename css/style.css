@@ -29,3 +29,20 @@ header {
     background-color: #f8f9fa;
     height: 60px;
 }
+
+
+
+.ms_sidebar {
+    width: 50px;
+    height: calc(100vh - 60px);
+    background-image: url('../img/sidebar-bg.png');
+    background-color: #051e34;
+    margin-top: 60px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .ms_sidebar {
+        width: 120px;
+    }
+}
