@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ms_search {
+    background-color: #e5e5e5;
+    height: 40px;
+}
+
+.ms_nav {
+    background-color: #fff;
+    height: 40px;
+}
+
+header {
+    background-color: #f8f9fa;
+}
