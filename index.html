@@ -12,16 +12,16 @@
 <body>
 
     <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg py-2 d-flex align-items-center">
+        <nav class="navbar navbar-expand-lg py-2 d-flex align-items-center flex-nowrap">
             <div class="container-fluid px-0">
                 <div class="row w-100">
-                    <a class="col-1 col-md-2 col-xl-1 d-flex ms_nav ps-3" href="#">
-                        <img class="col-1 d-md-none ms_logo_1" src="img/mobile-logo.png" alt="logo">
+                    <a class="col-1 col-md-2 col-xl-1 d-flex ms_nav px-3" href="#">
+                        <img class="col-1 d-md-none ms_logo_1 me-2" src="img/mobile-logo.png" alt="logo">
                         <img class="col-1 d-none d-md-inline-block ms_logo_2" src="img/logo.svg" alt="logo">
                     </a>
               
                     <form class="col-10 col-md-8 col-xl-10 px-0" role="search">
-                        <input class="form-control me-2 ms_search" type="search" placeholder="Prova a cercare: Lezioni di laravel">                      
+                        <input class="form-control mx-4 ms_search" type="search" placeholder="Prova a cercare: Lezioni di laravel">                      
                     </form>
                     <div class="col-1 col-md-2 col-xl-1 ms_nav d-flex justify-content-between align-items-center">
                         <i class="fa-solid fa-list d-none d-md-inline-block fs-5 ms_green"></i>
@@ -71,39 +71,48 @@
             <!--Header del main-->
             <div class="ms_content overflow-y-scroll">
 
-                <div class="ms_header_content w-100 d-flex">
-                    <div class="ms_new_student">
-                        <h5>Nuovo Studente</h5>
+                <div class="ms_header_content w-100 d-flex text-white py-4 ps-2">
+
+                    <div class="ms_new_student mt-3">
+                        <h5 class="d-inline-block fs-6">Nuovo Studente</h5>
                         <button type="button" class="btn btn-outline-light">
                             <i class="fa-solid fa-plus"></i>
                         </button>
                     </div>
 
-                    <div>
-                        <h2>Boolean <span class="badge text-bg-primary">Primary</span>
+                    <div class="ms_boolean mt-3">
+                        <h2>Boolean <span class="badge rounded-pill ms_badge_blue fs-6">Piano blaze</span>
                         </h2>
                         <div>
-                            <span class="badge text-bg-primary">Primary</span>
-
+                            <nav class="text-white" style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><span class="badge rounded-pill ms_badge_blue">3 app</span></li>
+                                  <li class="breadcrumb-item"><span class="badge rounded-pill ms_badge_blue d-lg-none"><i class="fa-solid fa-plus"></i></span></li>
+                                  <li><span class="badge rounded-pill ms_badge_blue d-none d-lg-inline-block">Boolean mobile app</span></li>
+                                  <li><span class="badge rounded-pill ms_badge_blue d-none d-lg-inline-block">Boolean mobile app</span></li>
+                                  <li><span class="badge rounded-pill ms_badge_blue d-none d-lg-inline-block">Boolean mobile app</span></li>
+                                </ol>
+                            </nav>
+                            
                         </div>
 
                     </div>
 
-                    <div>
+                    <div class="ms_student mt-3">
                         <h6>Studenti online negli ultimi 30 minuti</h6>
-                        <span>125</span>
+                        <span class="fs-3">125</span>
                     </div>
                 </div>
                 <!--Main con le tabelle e i grafici-->
-                <div class="ms_main_content">
+                <div class="ms_main_content mt-3">
 
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="ms_col_left col col-md-8">
+                            <div class="ms_col_left col-12 col-lg-8">
 
                                 <div class="card">
                                     <div class="card-header">
-                                    Featured
+                                        <h3>Prossime classi</h3>
                                     </div>
                                     <div class="card-body">
                                         <table class="table">
@@ -118,7 +127,11 @@
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <th scope="row">1</th>
+                                                <th scope="row">
+                                                    <div class="ms_badge_orange"><i class="fa-solid fa-code"></i>
+                                                    </div>
+                                                    <span>Classe 75</span>
+                                                </th>
                                                 <td>Mark</td>
                                                 <td>Otto</td>
                                                 <td>@mdo</td>
@@ -129,6 +142,36 @@
                                                 <td>Jacob</td>
                                                 <td>Thornton</td>
                                                 <td>@fat</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
                                                 <td>@mdo</td>
                                             </tr>
                                             <tr>
@@ -185,7 +228,7 @@
 
                             </div>
 
-                            <div class="ms_col_right col col-md-4"> 
+                            <div class="ms_col_right col-12 col-lg-4"> 
 
                                 <div class="card">
                                     <div class="card-header">
