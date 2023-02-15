@@ -37,7 +37,7 @@
     <main>
 
         <div class="ms_container d-flex">
-
+            <!--Sidebar-->
             <aside class="ms_sidebar d-flex flex-column justify-content-between align-items-center text-white">
 
                 <div class="ms_top_side">
@@ -61,7 +61,7 @@
                 </div>
 
             </aside>
-
+            <!--Header del main-->
             <div class="ms_content overflow-y-scroll">
 
                 <div class="ms_header_content w-100 d-flex">
@@ -87,12 +87,12 @@
                         <span>125</span>
                     </div>
                 </div>
-
+                <!--Main con le tabelle e i grafici-->
                 <div class="ms_main_content">
 
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col col-md-8">
+                            <div class="ms_col_left col col-md-8">
 
                                 <div class="card">
                                     <div class="card-header">
@@ -176,6 +176,31 @@
                                   </div>
 
 
+                            </div>
+
+                            <div class="ms_col_right col col-md-4"> 
+
+                                <div class="card">
+                                    <div class="card-header">
+                                      Todo
+                                    </div>
+                                    <div class="card-body">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                              <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                              <label class="form-check-label" for="firstCheckbox">Kickoff nuove classi</label>
+                                            </li>
+                                            <li class="list-group-item">
+                                              <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                              <label class="form-check-label" for="secondCheckbox">Lezione su Bootstrap in classe #75</label>
+                                            </li>
+                                            <li class="list-group-item">
+                                              <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                              <label class="form-check-label" for="thirdCheckbox">Controllare username github studenti</label>
+                                            </li>
+                                          </ul>
+                                    </div>
+                                  </div>
                             </div>
                         </div>
                     </div>
