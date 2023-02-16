@@ -77,8 +77,14 @@ header {
 }
 
 /*tabella 1*/
+.ms_tbody td, .ms_thead th {
+    text-align: right;
+}
 
-.ms_table th
+.ms_thead th:first-child {
+    text-align: left;
+}
+
 .ms_badge_orange {
     width: 25px;
     height: 25px;
@@ -87,6 +93,10 @@ header {
     color: white;
     display: inline-block;
     margin-right: 5px;
+}
+
+.ms_hidden {
+    display: none;
 }
 
 .ms_badge_orange i {
@@ -109,6 +119,9 @@ header {
         padding-right: 3rem;
     }
     .ms_new_student {
-        order: 1;""
+        order: 1;
+    }
+    .ms_hidden {
+        display: inline-block;
     }
 }
