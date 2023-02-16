@@ -84,6 +84,7 @@ header {
 }
 
 /*tabelle content*/
+
 .ms_content {
     width: calc(100% - 50px);
     height: calc(100vh - 60px);
@@ -138,6 +139,7 @@ header {
     border-radius: 5px;
 }
 
+/*mediaquery*/
 
 @media screen and (min-width: 768px) {
 
