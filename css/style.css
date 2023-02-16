@@ -98,6 +98,11 @@ header {
     text-align: left;
 }
 
+.ms_table tr:hover {
+    background-color: rgba(0, 0, 0, 0.308);
+    cursor: pointer;
+}
+
 .ms_badge_orange {
     width: 25px;
     height: 25px;
