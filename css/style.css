@@ -95,12 +95,18 @@ header {
     background-color: #f8f9fa;
 }
 
+
 .ms_tbody td, .ms_thead th {
     text-align: right;
 }
 
 .ms_thead th:first-child {
     text-align: left;
+}
+
+.ms_th_last {
+    width: 120px;
+    text-align: center;
 }
 
 .ms_table tr:hover {
