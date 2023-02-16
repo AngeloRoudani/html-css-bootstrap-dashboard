@@ -88,6 +88,10 @@ main {
     font-size: 12px;
 }
 
+.offcanvas {
+    --bs-offcanvas-width: 100%;
+}
+
 /*tabelle content*/
 
 .ms_content {
