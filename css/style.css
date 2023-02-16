@@ -53,6 +53,16 @@ header {
     margin-top: 60px;
 }
 
+.ms_layover:hover {
+    transition: all 0.2s;
+    background-color: rgba(255, 255, 255, 0.507);
+    cursor: pointer;
+}
+
+.ms_bottom_side, .ms_layover {
+    width: 80px;
+}
+
 /*header content*/
 
 .ms_header_content {
