@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 
-
+/*navbar*/
 .ms_search {
     background-color: #e5e5e5;
-    height: 40px;
 }
 
 
@@ -18,6 +17,16 @@
 .ms_nav {
     background-color: #fff;
     height: 40px;
+}
+
+/*sidebar*/
+
+.ms_sidebar {
+    width: 50px;
+    height: calc(100vh - 60px);
+    background-image: url('../img/sidebar-bg.png');
+    background-color: #051e34;
+    margin-top: 60px;
 }
 
 .ms_logo_1 {
@@ -44,13 +53,7 @@ header {
     height: 60px;
 }
 
-.ms_sidebar {
-    width: 50px;
-    height: calc(100vh - 60px);
-    background-image: url('../img/sidebar-bg.png');
-    background-color: #051e34;
-    margin-top: 60px;
-}
+
 
 .ms_content {
     width: calc(100% - 50px);
@@ -63,6 +66,8 @@ header {
     flex-direction: column;
 }
 
+
+
 .ms_badge_blue {
     background-color: #165bba;
 }
@@ -71,6 +76,9 @@ header {
     font-size: 12px;
 }
 
+/*tabella 1*/
+
+.ms_table th
 .ms_badge_orange {
     width: 25px;
     height: 25px;
