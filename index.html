@@ -87,7 +87,7 @@
                         <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                             <i class="fa-solid fa-plus"></i>
                         </button>
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas offcanvas-end text-left" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                 <div class="offcanvas-header">
                                         <h4 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h4>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -100,7 +100,7 @@
                                                 <label for="name" class="form-label">Nome</label>
                                                 <input type="text" class="form-control w-md-50" id="name" required>
                                             </div>
-                                            <div class="ms_off_item ms-2">
+                                            <div class="ms_off_item">
                                                 <label for="surname" class="form-label">Cognome</label>
                                                 <input type="text" class="form-control w-md-50" id="surname" required>
                                             </div>
@@ -114,7 +114,7 @@
                                                     <input type="email" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
                                                 </div>
                                             </div>
-                                            <div class="ms_off_item ms-2">
+                                            <div class="ms_off_item">
                                                 <label for="exampleInputPassword1" class="form-label">Password</label>
                                                 <input type="password" class="form-control" id="exampleInputPassword1">
                                             </div>
@@ -127,23 +127,35 @@
 
                                         <div class="mb-3">
 
-                                            <label for="city" class="form-label">Città</label>
-                                            <input type="text" class="form-control" id="city" required>
-                                            <label for="nation" class="form-label">Stato</label>
-                                            <select class="form-select" id="nation" aria-label="Default select example">
-                                                <option selected>Scegli stato</option>
-                                                <option value="1">Italia</option>
-                                                <option value="2">Germania</option>
-                                                <option value="3">Francia</option>
-                                                <option value="3">Giappone</option>
-                                                <option value="3">Svezia</option>
-                                                <option value="3">Sudafrica</option>
-                                            </select>
-                                            <label for="postal code" class="form-label">Cap</label>
-                                            <input type="text" class="form-control" id="postal code" required>
+                                            <div class="ms_off_item">
+                                                <label for="city" class="form-label">Città</label>
+                                                <input type="text" class="form-control" id="city" required>
+                                            </div>
+                                            <div class="ms_off_item_s">
+                                                <label for="nation" class="form-label">Stato</label>
+                                                <select class="form-select" id="nation" aria-label="Default select example">
+                                                    <option selected>Scegli stato</option>
+                                                    <option value="1">Italia</option>
+                                                    <option value="2">Germania</option>
+                                                    <option value="3">Francia</option>
+                                                    <option value="3">Giappone</option>
+                                                    <option value="3">Svezia</option>
+                                                    <option value="3">Sudafrica</option>
+                                                </select>
+                                            </div>
+                                            <div class="ms_off_item_xs">
+                                                <label for="postal code" class="form-label">Cap</label>
+                                                <input type="text" class="form-control" id="postal code" required>
+                                            </div>
 
-                                          </div>
-
+                                        </div>
+                                            <div class="mb-3">
+                                                <label for="basic-addon1" class="form-label">Foto</label>
+                                                <div class="input-group">
+                                                    <span class="input-group-text" id="basic-addon1">Scegli file</span>
+                                                    <input type="email" class="form-control" placeholder="Nessun file selezionato" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
                                         <div class="mb-3 form-check">
 
                                           <input type="checkbox" class="form-check-input" id="exampleCheck1" required>

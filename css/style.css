@@ -127,6 +127,14 @@ header {
     }
     .ms_off_item {
         display: inline-block;
-        width: 48%;
+        width: 49%;
+    }
+    .ms_off_item_s {
+        display: inline-block;
+        width: 30%;
+    }
+    .ms_off_item_xs {
+        display: inline-block;
+        width: 20%;
     }
 }
