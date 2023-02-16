@@ -63,6 +63,10 @@ header {
     width: 80px;
 }
 
+.ms_top_side {
+    margin-left: 60px;
+}
+
 /*header content*/
 
 .ms_header_content {
@@ -132,6 +136,9 @@ header {
 
     .ms_sidebar {
         width: 120px;
+    }
+    .ms_top_side {
+        margin-left: 10px;
     }
     .ms_content {
         width: calc(100% - 120px);
